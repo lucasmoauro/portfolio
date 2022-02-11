@@ -1,8 +1,13 @@
+import { Home } from "./Home/Home";
+
+import "./styles/index.scss";
+
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+	return (
+		<>
+			<Home />
+		</>
+	);
 }
 
 export default App;
