@@ -4,7 +4,7 @@ import "./styles/index.scss";
 
 function App() {
 	return (
-		<div className="prueba">
+		<div className="container">
 			<Home />
 		</div>
 	);
