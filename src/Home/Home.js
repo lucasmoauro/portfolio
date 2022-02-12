@@ -1,3 +1,9 @@
+import { Taskbar } from "../Components/Taskbar/Taskbar";
+
 export const Home = () => {
-	return <div>Home</div>;
+	return (
+		<div>
+			<Taskbar />
+		</div>
+	);
 };

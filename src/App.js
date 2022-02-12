@@ -4,9 +4,9 @@ import "./styles/index.scss";
 
 function App() {
 	return (
-		<>
+		<div className="prueba">
 			<Home />
-		</>
+		</div>
 	);
 }
 
