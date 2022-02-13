@@ -1,4 +1,6 @@
 import { Link, Navigate, Route, Routes } from "react-router-dom";
+import { Home } from "../../Home/Home";
+import { Error } from "../404/Error";
 import { About } from "../About/About";
 import { Bin } from "../Bin/Bin";
 import { Projects } from "../Projects/Projects";
@@ -22,12 +24,6 @@ export const Sections = () => {
 				<img src="/images/explorer.png" alt="Contact Me" />
 				<span>Contact Me</span>
 			</Link>
-
-			<Routes>
-				<Route exact path="/bin" element={<Bin />} />
-				<Route exact path="/about" element={<About />} />
-				<Route exact path="/projects" element={<Projects />} />
-			</Routes>
 		</div>
 	);
 };
