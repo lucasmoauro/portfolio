@@ -1,12 +1,13 @@
+import { Link, Route, Routes } from "react-router-dom";
 import { Bin } from "../Bin/Bin";
 
 export const Sections = () => {
 	return (
 		<div className="section">
-			<div className="section__container">
+			<Link to="/bin" className="section__container">
 				<img src="/images/bin.png" alt="Bin" />
 				<span>Recycle Bin</span>
-			</div>
+			</Link>
 			<div className="section__container">
 				<img src="/images/my_pc.png" alt="About Me" />
 				<span>About Me</span>
@@ -19,7 +20,10 @@ export const Sections = () => {
 				<img src="/images/explorer.png" alt="Contact Me" />
 				<span>Contact Me</span>
 			</div>
-			<Bin />
+
+			<Routes>
+				<Route path="/bin" element={<Bin />} />
+			</Routes>
 		</div>
 	);
 };
