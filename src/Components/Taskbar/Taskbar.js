@@ -3,10 +3,12 @@ import { useState } from "react";
 
 export const Taskbar = () => {
 	const guess = moment.tz.guess();
-	const [clock, setClock] = useState(moment.tz(guess).format("h:mm a"));
+	const time = moment.tz(guess).format("h:mm a");
+	const [clock, setClock] = useState(time);
+
+	//TODO: Ver de usar clearInterval()
 
 	setInterval(() => {
-		const time = moment.tz(guess).format("h:mm a");
 		setClock(time);
 	}, 60000);
 

@@ -1,49 +1,49 @@
 @font-face {
-    font-family: MS;
-    src: url(../font/Windows.ttf);
+	font-family: MS;
+	src: url(../font/Windows.ttf);
 }
-
 
 .taskbar {
 	background-color: #c0c0c0;
-    height: 2.5rem;
-    width: 100vw;
+	height: 2.5rem;
+	width: 100vw;
 	&__container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        height: 100%;
-        width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+		width: 100%;
 	}
 
-    &__timebox{
-        height: 90%;
-        width: 7rem;
-        margin-right: .25rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center ;
-        justify-content: center;
-        box-shadow: inset 2.25px 2.25px 1px rgba(0, 0, 0, 0.356), inset -2.25px -2.25px 1px #fff;
-    }
-    &__button{
-        font-family: MS;
-        font-weight: 600;
-        font-size: large;
-        letter-spacing: .05rem;
-        padding: 2px 5px;
-        margin-left: .25rem;
-        border: none;
-        background-color: #c0c0c0;
-        box-shadow: inset 2px 2px 1px #fff, 2px 2px 1px rgb(0, 0, 0);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-    }
-    &__image{
-        width: 40%;
-        margin-right: 2px;
-    }
+	&__timebox {
+		height: 90%;
+		width: 7rem;
+		margin-right: 0.25rem;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		box-shadow: inset 2.25px 2.25px 1px rgba(0, 0, 0, 0.356),
+			inset -2.25px -2.25px 1px #fff;
+	}
+	&__button {
+		font-family: MS;
+		font-weight: 600;
+		font-size: large;
+		letter-spacing: 0.05rem;
+		padding: 2px 5px;
+		margin-left: 0.25rem;
+		border: none;
+		background-color: #c0c0c0;
+		box-shadow: inset 2px 2px 1px #fff, 2px 2px 1px rgb(0, 0, 0);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+	&__image {
+		width: 40%;
+		margin-right: 2px;
+	}
 }

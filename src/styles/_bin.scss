@@ -1,0 +1,73 @@
+.bin {
+	position: absolute;
+	width: 50vw;
+	height: 80vh;
+	left: 30rem;
+	top: 10%;
+	background-color: #c6c6c6;
+	&__top {
+		background-color: #000080;
+		width: 100%;
+		height: 2rem;
+		display: flex;
+		justify-content: space-between;
+		border: none;
+		& > span {
+			color: #fff;
+			font-family: MS;
+			font-weight: 500;
+			font-size: large;
+			letter-spacing: 0.09rem;
+			padding: 4px 10px;
+		}
+
+		& > button {
+			padding: 2px;
+			margin: 5px;
+			cursor: pointer;
+		}
+	}
+	&__middle {
+		box-shadow: 1px 0 2px rgb(0, 0, 0);
+		height: 2rem;
+	}
+	&__placeholders {
+		width: 25%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 10px;
+		cursor: pointer;
+	}
+}
+
+.trash {
+	background-color: #fff;
+	height: 70vh;
+	margin: auto;
+	margin-top: 0.75rem;
+	width: 97%;
+	box-shadow: 1px 1px 1px #000, inset 1px 1px 1px grey;
+	&__container {
+		width: 70%;
+		height: 30%;
+		display: flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		align-items: center;
+	}
+	&__section {
+		display: flex;
+		flex-direction: column;
+		& > img {
+			margin: auto;
+			margin-bottom: 0;
+		}
+		& > span {
+			margin-top: 3px;
+			font-family: MS;
+			letter-spacing: 0.05rem;
+		}
+	}
+}

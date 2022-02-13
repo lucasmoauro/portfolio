@@ -1,9 +1,11 @@
+import { Bin } from "../Bin/Bin";
+
 export const Sections = () => {
 	return (
 		<div className="section">
 			<div className="section__container">
 				<img src="/images/bin.png" alt="Bin" />
-				<span>Bin</span>
+				<span>Recycle Bin</span>
 			</div>
 			<div className="section__container">
 				<img src="/images/my_pc.png" alt="About Me" />
@@ -17,6 +19,7 @@ export const Sections = () => {
 				<img src="/images/explorer.png" alt="Contact Me" />
 				<span>Contact Me</span>
 			</div>
+			<Bin />
 		</div>
 	);
 };
