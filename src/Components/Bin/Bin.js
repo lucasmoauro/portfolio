@@ -1,17 +1,11 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Bin = () => {
-	const [isClosed, setIsClosed] = useState(false);
-
-	const handleClose = () => {
-		setIsClosed(!isClosed);
-	};
-
 	return (
-		<div className={`bin ${isClosed ? "closed" : null}`}>
+		<div className="bin">
 			<div className="bin__top">
 				<span>Recycle Bin</span>
-				<button onClick={handleClose}>X</button>
+				<Link to="/">X</Link>
 			</div>
 			<div className="bin__middle">
 				<div className="bin__placeholders">
@@ -77,9 +71,6 @@ export const Bin = () => {
 						</div>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div></div>
 			</div>
 		</div>
 	);

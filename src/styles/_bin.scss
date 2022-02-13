@@ -23,10 +23,12 @@
 			padding: 4px 10px;
 		}
 
-		& > button {
-			padding: 2px;
+		& > a {
+			background-color: #c6c6c6;
+			padding: 3px;
 			margin: 5px;
 			cursor: pointer;
+			border-radius: 1px;
 		}
 	}
 	&__middle {
@@ -77,9 +79,4 @@
 			letter-spacing: 0.05rem;
 		}
 	}
-}
-
-
-.closed {
-	display: none;
 }
