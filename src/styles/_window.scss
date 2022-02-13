@@ -29,6 +29,9 @@
 			margin: 5px;
 			cursor: pointer;
 			border-radius: 1px;
+			&:focus{
+				background-color: darken($color: #c6c6c6, $amount: 10%);
+			}
 		}
 	}
 	&__middle {
@@ -46,14 +49,15 @@
 	}
 }
 
-.trash {
+.window {
 	background-color: #fff;
 	height: 70vh;
 	margin: auto;
 	margin-top: 0.75rem;
 	width: 97%;
 	box-shadow: 1px 1px 1px #000, inset 1px 1px 1px grey;
-	&__container {
+	font-family: MS;
+	&__grid {
 		width: 90%;
 		height: 60%;
 		display: grid;
@@ -62,6 +66,7 @@
 		grid-gap: 1rem;
 		text-align: center;
 		margin: 0 auto;
+		letter-spacing: .2rem;
 	}
 	&__section {
 		display: flex;
@@ -75,8 +80,25 @@
 		}
 		& > span {
 			margin-top: 3px;
-			font-family: MS;
 			letter-spacing: 0.05rem;
 		}
+	}
+	&__flex{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	&__mainTitle, &__subTitle {
+		margin: 1rem auto;
+		letter-spacing: 0.1rem;
+	}
+
+	&__paragraph{
+		margin: 1rem 3rem;
+		letter-spacing: 0.1rem;
+		font-size: large;
+		
 	}
 }

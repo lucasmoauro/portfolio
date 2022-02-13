@@ -15,8 +15,8 @@ export const Projects = () => {
 					<span>Computer</span>
 					<span>View</span>
 				</div>
-				<div className="trash">
-					<div className="trash__container"></div>
+				<div className="window">
+					<div className="window__container"></div>
 				</div>
 			</div>
 		</div>
