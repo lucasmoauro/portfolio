@@ -15,7 +15,7 @@
 		display: flex;
 		justify-content: space-between;
 		border: none;
-			overflow: hidden;
+		overflow: hidden;
 		& > span {
 			color: #fff;
 			font-family: MS;
@@ -23,7 +23,7 @@
 			font-size: large;
 			letter-spacing: 0.09rem;
 			padding: 4px 10px;
-				overflow: hidden;
+			overflow: hidden;
 		}
 
 		& > a {
@@ -32,8 +32,8 @@
 			margin: 5px;
 			cursor: pointer;
 			border-radius: 1px;
-				overflow: hidden;
-			&:focus{
+			overflow: hidden;
+			&:focus {
 				background-color: darken($color: #c6c6c6, $amount: 10%);
 			}
 		}
@@ -70,36 +70,47 @@
 		grid-gap: 1rem;
 		text-align: center;
 		margin: 0 auto;
-		letter-spacing: .2rem;
+		letter-spacing: 0.2rem;
+
+		&-projects {
+			grid-template-columns: repeat(2, 1fr);
+			width: 70%;
+			height: 60%;
+			text-align: center;
+			margin: 0 auto;
+			letter-spacing: 0.2rem;
+			display: grid;
+		}
 	}
 	&__section {
 		display: flex;
 		flex-direction: column;
+
 		& > img {
 			margin: auto;
 			margin-bottom: 0;
 			width: 25%;
 			margin-top: 2rem;
-
 		}
 		& > span {
 			margin-top: 3px;
 			letter-spacing: 0.05rem;
 		}
 	}
-	&__flex{
+	&__flex {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		flex-direction: column;
 	}
 
-	&__mainTitle, &__subTitle {
+	&__mainTitle,
+	&__subTitle {
 		margin: 1rem auto;
 		letter-spacing: 0.1rem;
 	}
 
-	&__paragraph{
+	&__paragraph {
 		margin: 1rem 3rem;
 		letter-spacing: 0.1rem;
 		font-size: large;
