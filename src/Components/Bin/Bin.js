@@ -16,9 +16,6 @@ export const Bin = () => {
 				<div className="window">
 					<div className="window__grid">
 						<div className="window__section">
-							{/* TODO:
-								AGREGAR FN QUE TIRE PANTALLAZO AZUL ON CLICK A SYS32
-							*/}
 							<img src="/images/folder.png" alt="" />
 							<span>system32</span>
 						</div>

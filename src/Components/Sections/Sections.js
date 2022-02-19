@@ -1,9 +1,5 @@
-import { Link, Navigate, Route, Routes } from "react-router-dom";
-import { Home } from "../../Home/Home";
-import { Error } from "../404/Error";
-import { About } from "../About/About";
-import { Bin } from "../Bin/Bin";
-import { Projects } from "../Projects/Projects";
+import { Link} from "react-router-dom";
+
 
 export const Sections = () => {
 	return (

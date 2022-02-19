@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export const Projects = () => {
 
 
+
 	return (
 		<div className="bin">
 			<div className="bin__top">
