@@ -52,7 +52,9 @@ export const Project = () => {
 							<img src="/images/folder.png" alt="" />
 							<div>
 								<span>
-									{split[2] === "glasslogin" ? "Glass-Login Page" : " RecetasApp Page"}
+									{split[2] === "glasslogin"
+										? "Glass-Login Page"
+										: " RecetasApp Page"}
 								</span>
 							</div>
 						</a>

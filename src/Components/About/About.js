@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
 export const About = () => {
+	const year = new Date().getFullYear();
+
 	return (
 		<div className="bin bin-fadeIn">
 			<div className="bin__top">
@@ -14,14 +16,15 @@ export const About = () => {
 					<span>View</span>
 				</div>
 				<div className="window">
+				
 					<div className="window__flex">
 						<h1 className="window__mainTitle">Hello! I'm Lucas</h1>
 						<h2 className="window__subTitle">
 							A self-taught frontend dev from Argentina
 						</h2>
 						<p className="window__paragraph">
-							I'm 28 years old, I live in Buenos Aires with my partner and a
-							shih tzu named "Mochi".
+							I'm {year - 1993} years old, I live in Buenos Aires with my
+							partner and a shih tzu named "Mochi".
 						</p>
 						<p className="window__paragraph">
 							I have been learning web development since 2021 due to covid
