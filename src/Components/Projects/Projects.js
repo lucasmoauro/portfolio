@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Projects = () => {
 	return (
-		<div className="bin">
+		<div className="bin bin-fadeIn">
 			<div className="bin__top">
 				<span>Projects</span>
 				<Link to="/">X</Link>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const About = () => {
 	return (
-		<div className="bin animate__animated animate__fadeInUp">
+		<div className="bin bin-fadeIn">
 			<div className="bin__top">
 				<span>About Me</span>
 				<Link to="/">X</Link>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Contact = () => {
 	return (
-		<div className="bin">
+		<div className="bin bin-fadeIn">
 			<div className="bin__top">
 				<span>Contact Me</span>
 				<Link to="/">X</Link>

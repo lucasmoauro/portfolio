@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Bin = () => {
 	return (
-		<div className="bin">
+		<div className="bin bin-fadeIn">
 			<div className="bin__top">
 				<span>Recycle Bin</span>
 				<Link to="/">X</Link>
