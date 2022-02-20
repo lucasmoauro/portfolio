@@ -48,7 +48,7 @@ export const Contact = () => {
 										<input
 											type="hidden"
 											name="_next"
-											value="localhost:3000/contact"
+											value="https://lucasmoauro.netlify.app/contact"
 										/>
 										<input
 											type="hidden"
