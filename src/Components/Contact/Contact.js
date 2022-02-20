@@ -65,30 +65,43 @@ export const Contact = () => {
 								<div className="contact__icons">
 									<span>Or you can connect with me:</span>
 									<div className="icons">
-										<div className="prueba2">
+										<div className="icons__container">
 											<a
 												href="https://www.linkedin.com/in/lucas-moauro/"
 												target="_blank"
-												rel="noopener noreferrer"
+												rel="noreferrer"
 											>
 												<img
-													className="prueba"
+													className="icons__image"
 													src="/images/linkedin.png"
 													alt="LinkedIn profile"
 												/>
 											</a>
 										</div>
 
-										<div className="prueba2">
+										<div className="icons__container">
 											<a
 												href="mailto:lmoauro6@gmail.com"
 												target="_blank"
-												rel="noopener noreferrer"
+												rel="noreferrer"
 											>
 												<img
-													className="prueba"
+													className="icons__image"
 													src="/images/gmail.png"
 													alt="LinkedIn profile"
+												/>
+											</a>
+										</div>
+										<div className="icons__container">
+											<a
+												href="https://github.com/lucasmoauro"
+												target="_blank"
+												rel="noreferrer"
+											>
+												<img
+													className="icons__image"
+													src="/images/github.png"
+													alt="github profile"
 												/>
 											</a>
 										</div>

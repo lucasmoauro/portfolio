@@ -1,10 +1,18 @@
 .bin {
 	position: absolute;
-	width: 50vw;
+	width: 97%;
 	height: 80vh;
-	left: 30rem;
-	top: 10%;
+	left: 1.5%;
+	top: 5%;
 	background-color: #c6c6c6;
+
+	@media screen and (min-width: 1900px) {
+		width: 50vw;
+		height: 80vh;
+		left: 30rem;
+		top: 10%;
+	}
+
 	&-fadeIn {
 		animation: open 1s ease-in-out;
 	}
@@ -44,24 +52,33 @@
 		height: 2rem;
 	}
 	&__placeholders {
-		width: 25%;
+		width: 70%;
 		height: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 0 10px;
 		cursor: pointer;
+
+		@media screen and (min-width: 1900px) {
+			width: 25%;
+		}
 	}
 }
 
 .window {
 	background-color: #fff;
-	height: 70vh;
+	height: 69vh;
 	margin: auto;
 	margin-top: 0.75rem;
 	width: 97%;
 	box-shadow: 1px 1px 1px #000, inset 1px 1px 1px grey;
 	font-family: MS;
+	overflow: auto;
+
+	@media screen and (min-width: 1900px) {
+		height: 70vh;
+	}
 
 	&-fadeIn {
 		animation: projects 1s ease-in-out;
@@ -115,12 +132,15 @@
 		margin: 1rem auto;
 		letter-spacing: 0.1rem;
 	}
+	&__subTitle {
+		text-align: center;
+	}
 
 	&__paragraph {
-		margin: 1rem 3rem;
+		margin: 1rem 2rem;
 		letter-spacing: 0.1rem;
 		font-size: large;
-		white-space: pre-wrap;
+		white-space: pre-line;
 		text-align-last: center;
 	}
 }
