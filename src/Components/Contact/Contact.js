@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const Contact = () => {
+	const handleSubmit = () => {
+		alert("Thank you for your message!");
+	};
 	return (
 		<div className="bin bin-fadeIn">
 			<div className="bin__top">
@@ -22,6 +25,7 @@ export const Contact = () => {
 								<form
 									action="https://formsubmit.co/600c77039d2811a274ab50f83bf869ff"
 									method="POST"
+									onSubmit={handleSubmit}
 								>
 									<div className="contact__field">
 										<label htmlFor="name">Name:</label>
