@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Alert } from "../alert/Alert";
 
 export const Contact = () => {
 	const handleSubmit = () => {
-		alert("Thank you for your message!");
+		Alert();
 	};
 	return (
 		<div className="bin bin-fadeIn">
