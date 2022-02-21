@@ -55,7 +55,8 @@ export const Contact = () => {
 											name="_subject"
 											value="Contacto Portfolio"
 										/>
-										<input type="hidden" name="_template" value="basic"></input>
+										<input type="hidden" name="_template" value="basic" />
+										<input type="hidden" name="_captcha" value="false" />
 									</div>
 									<button type="submit" className="contact__button">
 										Send
